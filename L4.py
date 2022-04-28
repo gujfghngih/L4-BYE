@@ -53,9 +53,6 @@ L = '\x1b[38;5;56m'
 C = '\x1b[38;5;51m'
 #################################################################################  Definicion del Color
 
-proxys = open('Metodos/L7/proxies.txt').readlines()
-rb = len(proxys)
-
 def cnc_demo_rip_router():
     clear()
     print(f'''
@@ -226,7 +223,6 @@ def cnc_demo_layer4_Methods():
 
 
 def cnc_demo_cloud():
-    sys.stdout.write(f"\x1b]2;Cloud Destroyer [Proxy]: [{rb}] | Online.\x07")
     clear()
     print(f"""
 \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mCNC \x1b[38;2;0;255;255m] | \x1b[38;2;233;233;233mCloud Destroyer \x1b[38;2;0;255;255m | \x1b[38;2;0;255;255m[ \x1b[38;2;233;233;233mLayer7 & Layer4 \x1b[38;2;0;255;255m]
