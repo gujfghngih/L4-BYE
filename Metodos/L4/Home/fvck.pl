@@ -42,7 +42,7 @@ print <<EOTEXT;
        ::::::`:::::;'  /  /   `#
 EOTEXT
      
-print "The attack started towards: $ip " . ($port ? $port : "random") . " | Peso: " .
+print "Fvck: $ip " . ($port ? $port : "random") . " | Peso: " .
 ($size ? "$size-byte" : "") . " " .
 ($time ? " | Durante: $time segundos" : "") . "\n";
   
